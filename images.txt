@@ -1,10 +1,17 @@
-nginx
-nginx:stable 
-mysql:8.0.26
-redis:6.2.1
-rabbitmq:3.10-management
-nacos/nacos-server:1.4.2
-seataio/seata-server:1.4.2
+debian:bookworm-slim 
+debian:bullseye-slim  
+
+mysql:8.0.26            
+nginx:1.28.0          
+node:22-bookworm 
+node:22-bookworm-slim 
+node:22-bullseye       
+node:22-bullseye-slim
+
+openjdk:8-jre-slim-bullseye
+openjdk:8-jdk-slim-bullseye
+redis:6.2.1  
+
 
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
