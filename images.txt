@@ -13,6 +13,7 @@ openjdk:8-jdk-slim-bullseye
 redis:6.2.1  
 
 docker.gitea.com/gitea:1.23.8
+nacos/nacos-server:v2.2.0-slim
 
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
