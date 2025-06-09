@@ -1,6 +1,7 @@
 debian:bookworm-slim 
 debian:bullseye-slim  
 
+mysql:5.7.28
 mysql:8.0.26            
 nginx:1.28.0          
 node:22-bookworm 
