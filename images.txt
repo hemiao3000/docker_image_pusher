@@ -1,3 +1,5 @@
+hello-world:latest
+
 debian:bookworm-slim 
 debian:bullseye-slim  
 
